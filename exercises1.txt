@@ -1,4 +1,4 @@
-1. NEWTON SECOND LAW
+        1. NEWTON SECOND LAW
 
 STORE "m" with 600 kg
 STORE "a" with 2 m/s^2
@@ -7,7 +7,7 @@ CALCULATE "m" multiply by "a"
 SET "F" value as calculation result
 DISPLAY "F"
 
-2. TAHUN KABISAT
+        2. TAHUN KABISAT
 
 STORE "tahun" with number value
 IF "tahun" mod 4 equal to 0, "tahun" mod 100 more than 0 
@@ -18,3 +18,24 @@ DISPLAY "Kabisat"
 DISPLAY "BukanKabisat"
 ENDIF
 
+        3. LAUNDRY
+
+STORE "jumlahBaju" with 0
+
+WHILE "jumlahBaju" < 21
+ADD "jumlahBaju" by 1
+
+DO "cuciBaju"
+
+        4. KUKU PANJANG
+
+STORE "JumlahSiswa" with 0
+
+WHILE "JumlahSiswa" < 41
+ DISPLAY "JumlahSiswa"
+  ADD "JumlahSiswa" by 1
+ STORE "JumlahSiswaSementara" to the calculation result
+ IF  "JumlahSiswaSementara" equal to "KukuPanjang"
+   DO "berdiri"
+ ELSE
+   DO "makanGratis"
