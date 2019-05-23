@@ -1,7 +1,7 @@
 var hari = 2;       //assign nilai var hari dari angka 1-31
 var bulan = 12;      //assign nilai var bulan dari angka 1-12
 var tahun = 1995;   //assign nilai var tahun dari angka 1900 - 2200
-``
+
 switch (bulan){
     case 1:
         console.log(hari + ' Januari ' + tahun);
