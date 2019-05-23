@@ -9,9 +9,6 @@ switch (bulan){
     case 2:
         console.log(hari + ' Februari ' + tahun);
         break;
-    case 2:
-        console.log(hari + ' Februari ' + tahun);
-        break;
     case 3:
         console.log(hari + ' Maret ' + tahun);
         break;
